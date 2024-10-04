@@ -3,7 +3,7 @@ def main():
 
     while True:
         try:
-            item = input("Item: ").strip().lower()
+            item = input().strip().lower()
             if item:
                 grocery_list[item] = grocery_list.get(item, 0) + 1
         except EOFError:
