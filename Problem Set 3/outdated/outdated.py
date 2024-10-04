@@ -5,7 +5,7 @@ def main():
     ]
 
     while True:
-        date_input = input("Enter a date (MM/DD/YYYY or Month DD, YYYY): ")
+        date_input = input("Date: ")
 
         if '/' in date_input:
             try:
