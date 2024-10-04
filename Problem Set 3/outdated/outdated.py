@@ -20,6 +20,10 @@ def main():
             try:
                 month_day, year = date_input.rsplit(' ', 1)
                 month_name, day = month_day.split(' ', 1)
+
+                if not day.endswith(','):
+                    continue
+
                 day = day.rstrip(',')
                 month = months.index(month_name) + 1
                 day = int(day)
