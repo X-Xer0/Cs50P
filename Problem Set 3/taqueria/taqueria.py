@@ -18,7 +18,7 @@ def main():
             item = input("Item: ").strip().title()
             if item in menu:
                 total += menu[item]
-                print(f"Total${total:.2f}")
+                print(f"Total: ${total:.2f}")
         except EOFError:
             print("\n")
             break
