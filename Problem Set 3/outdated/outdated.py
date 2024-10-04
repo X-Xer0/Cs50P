@@ -5,7 +5,7 @@ def main():
     ]
 
     while True:
-        date_input = input("Date: ")
+        date_input = input("Date: ").strip()
 
         if '/' in date_input:
             try:
@@ -20,12 +20,16 @@ def main():
             try:
                 month_day, year = date_input.rsplit(' ', 1)
                 month_name, day = month_day.split(' ', 1)
+                day = day.rstrip(',')
                 month = months.index(month_name) + 1
                 day = int(day)
+
                 if 1 <= month <= 12 and 1 <= day <= 31 and year.isdigit() and int(year) >= 0:
                     print(f"{year:04}-{month:02}-{day:02}")
                     break
             except (ValueError, IndexError):
                 pass
+
+        print("Invalid date. Please try again.")
 
 main()
