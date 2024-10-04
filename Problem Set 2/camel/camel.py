@@ -1,5 +1,5 @@
 def main():
-    camel_case = input("Enter camelCase variable: ")
+    camel_case = input("camelCase: ")
     print(to_snake_case(camel_case))
 
 def to_snake_case(name):
