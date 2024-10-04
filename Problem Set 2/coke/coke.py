@@ -4,7 +4,7 @@ def main():
 
     while amount_due > 0:
         print(f"Amount Due: {amount_due} cents")
-        coin = int(input("Insert coin (25, 10, 5): "))
+        coin = int(input("Insert coin: "))
         if coin in [25, 10, 5]:
             amount_due -= coin
 
