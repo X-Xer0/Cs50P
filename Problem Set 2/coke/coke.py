@@ -1,5 +1,5 @@
 def main():
-    cost = 50  # Cost of the Coke in cents
+    cost = 50
     amount_due = cost
 
     while amount_due > 0:
