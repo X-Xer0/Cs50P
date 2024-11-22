@@ -108,5 +108,5 @@ python project.py
 pytest test_project.py
 ```
 
-Enjoy exploring anime with **MyAnimeWorld**!
+### Enjoy exploring anime with **MyAnimeWorld**!
 
