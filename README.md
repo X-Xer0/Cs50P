@@ -67,3 +67,4 @@ Through MyAnimeWorld, I applied concepts learned during the course, including:
 Navigate to the specific assignment folder, and run the `.py` file using:
 ```bash
 python filename.py
+
